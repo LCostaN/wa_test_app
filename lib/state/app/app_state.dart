@@ -39,6 +39,7 @@ class AppState extends ChangeNotifier {
   ThemeData get theme => _currentColorIndex < 6
       ? ThemeData(
           primarySwatch: colors[_currentColorIndex],
+          scaffoldBackgroundColor: Colors.grey.shade200,
           fontFamily: _fonts[_currentFontIndex],
         )
       : ThemeData.dark().copyWith(

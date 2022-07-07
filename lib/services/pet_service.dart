@@ -13,7 +13,7 @@ class PetService {
   Future<Map<Pets, List<Pet>>> getAll() async {
     List<Dog> dogs = await getDogList();
     List<Cat> cats = await getCatList();
-    
+
     Map<Pets, List<Pet>> map = {
       Pets.dog: dogs,
       Pets.cat: cats,
@@ -23,16 +23,16 @@ class PetService {
   }
 
   Future getDetails(Pets type, String id) async {}
-  
+
   Future<List<Cat>> getCatList() async {
     List<Cat> list = await CatRepository().getList();
-    
+
     return list;
   }
 
   Future<List<Dog>> getDogList() async {
     List<Dog> list = await DogRepository().getList();
-    
+
     return list;
   }
 }

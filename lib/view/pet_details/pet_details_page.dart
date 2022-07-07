@@ -27,7 +27,10 @@ class _PetDetailsPageState extends State<PetDetailsPage> {
       body: SafeArea(
         child: ListView(
           children: [
-            CachedNetworkImage(imageUrl: widget.pet.url),
+            CachedNetworkImage(
+              imageUrl: widget.pet.url,
+              height: max(400, MediaQuery.of(context).size.height * 0.6),
+            ),
             ListTile(
               title: const Text("ID"),
               trailing: Text(widget.pet.id),

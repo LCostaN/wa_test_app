@@ -1,16 +1,11 @@
-# wa_test_app
+# WA Project: Teste Prático
 
-A new Flutter project.
+Teste de prática para o processo seletivo da WA Project
+Tempo de desenvolvimento: Entre 8 e 10 horas
 
-## Getting Started
+## Executando
 
-This project is a starting point for a Flutter application.
+Abaixo segue o teste via WEB e Android. Como a aplicação é somente teste, o APK não foi otimizado (ou seja, é uma Fat APK).
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Web](https://project-test-505b9.web.app/#/)
+- [APK]()
